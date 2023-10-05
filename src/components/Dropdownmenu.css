@@ -1,0 +1,18 @@
+.custom-button-style {
+  background-color:white; /* Orange background color */
+  color:black; /* White text color */
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* Change button color on hover */
+.custom-button-style:hover {
+  color: #6e0f0f; /* Darker orange background color on hover */
+}
+
+.my-button{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}

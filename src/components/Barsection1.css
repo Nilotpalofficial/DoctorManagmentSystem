@@ -1,0 +1,116 @@
+/* Example of limiting the width of content within child elements */
+.fullrow{
+  display: flex;
+}
+.boxpartmax{
+  display: flex;
+    margin-top: 10px;
+    align-items: center;
+}.specialties-cards1{
+  display: flex;
+}
+.specialties-cards{
+  display: flex;
+}
+
+
+.prohealth-content > * {
+    margin-top: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optionally truncate text if it overflows */
+  }
+  .image-container{
+    margin-top: 10px;
+    
+}
+.image-container img {
+  width: 430px;
+  height: 90px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: 80px;
+}
+
+  .description {
+    margin: 0px;
+  }
+  .description button{
+    border-radius: 10px;
+    width: 170px;
+  }
+ /*Bar Section*/
+.bar{
+    display: flex;
+    margin-top: 35px;
+    background-color:#E9F8FC;
+    justify-content: center;
+  }
+  .My_button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .My_button button {
+    background-color: transparent;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .My_button button:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: green;
+  }   
+  .description{
+    margin-top: 60px;
+  }
+
+  
+  
+  
+  .specialties-heading{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .box4 img{
+    
+    width: 40px;
+    
+  }
+  .box4{
+    background:white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+    width: 110px;
+    height: 90px;
+    text-decoration: none;
+    align-content: center;
+    justify-content: center;
+    margin-right: 25px;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    transition: border-color 0.3s ease;
+    border: 2px solid #ccc;
+  
+}
+.box4 h5{
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 5px;
+} 
+
+/* Change the border color when hovering over .box4 */
+.box4:hover {
+  border-color: #007bff; /* New border color on hover (you can change this to your desired color) */
+}
+

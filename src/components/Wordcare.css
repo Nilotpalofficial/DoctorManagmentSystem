@@ -1,0 +1,109 @@
+.fullcontainer{
+  background-color: rgb(235,251,255);
+}
+.details h4{
+  margin-top: 50px;
+  font-weight: 400;
+    font-size: 16px;
+}
+.details h2{
+  color: #161616;
+    font-weight: 800;
+}
+.card-items{
+  padding-left: 100px;
+}
+.card-items{
+  margin-top: 10px;
+}
+/* Styling for card boxes */
+.card-box h5{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding-top: 8px;
+    margin: 0px;
+}
+.card-box a{
+  text-decoration: none
+}
+.card-box img{
+  width: 60px;
+}
+.card-box {
+  width: 160px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom:20px;
+  margin-left: 20px;
+  box-shadow: rgba(46, 130, 240, 0.4) -5px 5px, rgba(9, 145, 187, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(19, 107, 189, 0.1) -20px 20px, rgba(17, 124, 212, 0.05) -25px 25px;
+}
+
+/* Hover effect for card boxes */
+.card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ph-details{
+  display: flex;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 3px solid #0a0404c0;
+  box-shadow: 0px 0px 36px rgb(16 40 81 / 12%);
+  border-radius: 12px;
+  height: 70px;
+  width: 510px;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Add this CSS to your Wordcare.css file */
+#IPS_Call_btn i.fas {
+  margin-right: 15px; 
+  font-size: 25px;
+  color: blue;
+}
+.number-details{
+  display: flex;
+  padding-left: 30px;
+}
+.number-details a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.textliner h4{
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  color:#57375D;
+}
+
+.imeage-section img{
+  height: 540px;
+  width: 100%;
+  border-radius: 10px;
+  border: 8px solid white;
+}
+
+.imeage-section{
+  display: flex;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  margin-bottom: 50px;
+}
+
+/* Add this CSS code to your stylesheet */
+.ph-details:hover {
+  background-color: rgb(1,164,180); /* Change to your desired hover background color */
+  color:white; /* Change to your desired hover text color */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add smooth transition effects */
+}

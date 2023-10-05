@@ -1,0 +1,44 @@
+.top_header{
+    display: flex;
+    background-color:rgb(0,124,157);
+}
+.icon-spacing {
+    align-items: center;
+    margin-right: 10px; 
+    color: beige;
+    margin-top: 7px;
+    padding: 2px;
+    letter-spacing:10px;
+    border-right: 0.08rem solid #ffffff;
+  }
+  .logo{
+    height: 20px;
+    margin-right: 10px;
+  }
+.top-left a{
+    justify-content: center;
+}
+
+/* Header.css */
+.text-spacing{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link1{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff !important;
+    font-weight: 400;
+    padding: 0px;
+    margin-top: 9px;
+    letter-spacing: .4px;
+    line-height: 1;
+    margin-right: 15px;
+}
+.custom-margin{
+    padding-left: 300px;
+}
+.custom-margin1{
+    padding-left: 100px;
+}

@@ -1,0 +1,265 @@
+ 
+
+/* Second-Container_Fluid */
+.book-appointment-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  
+ 
+}
+
+.book-appointment-button:hover {
+  background-color:red;
+}
+
+.left-align {
+  margin-right: 700px;
+  margin-bottom: 10px;
+}
+.box-item{
+  margin:0px 40px;
+  margin-top: 30px;
+}
+
+
+.box {
+    background:white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px 20px;
+    height: 146px;
+    width: 150px;
+    border-radius: 15px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-right: 25px;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.box:hover {
+  background-color:#0d6efd; 
+}
+.box h5{
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+
+/* Navigation bar background and padding */
+.navbar {
+  background-color: #f8f9fa; 
+  padding: 1rem 0; 
+  height: 90px;
+}
+
+/* Logo style */
+.navbar-brand img {
+  width: 100px; 
+  margin:0px 110px;
+}
+
+/* Search form style */
+.form-control {
+  border-radius: 0.25rem;
+  width: 450px;
+}
+
+/* Button style */
+.btn {
+  border-radius: 0.25rem; 
+  background-color: #c1cad4;
+
+}
+
+/* Right side links style */
+
+
+/* Link style */
+.nav-link {
+  color: #333; 
+  margin-right: 15px; 
+  font-weight: bold;
+
+}
+
+/* Phone number link style */
+.phone-number {
+  font-size: 1.1rem; 
+  color: #007bff; 
+  text-decoration: none;
+  margin-left: 5px; 
+}
+
+/* Phone number link hover effect */
+.phone-number:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+.about-imeage img{
+border-radius: 10px;
+margin: 0 60px;
+}
+
+.about-Healthcare{
+  display: flex;
+  margin-top: 5px;
+  background-color: #EBFBFF;
+}
+.about-Healthcare h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-Healthcare p{
+  display: flex;
+  margin: 0 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-imeage img{
+  margin-top: 60px;
+}
+
+.boxcard{
+  display: flex;
+}
+
+
+/* Dropdownmenu.css */
+.btn-group:hover .dropdown-menu {
+  display: block; 
+}
+
+/* Keep the dropdown menus hidden by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 50px;
+  min-width: 200px; 
+  padding: 8px 0;
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+/* Highlight dropdown items on hover */
+.dropdown-item:hover {
+  background-color: #f2f2f2; 
+}
+
+
+
+.scroll-buttons {
+  position: fixed;
+  width: 220px;
+  bottom: 20px; 
+  left: 1120px; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  z-index: 1000; 
+}
+
+.scroll-buttons button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 220px; 
+}
+
+/* Style buttons on hover */
+.scroll-buttons button:hover {
+  background-color: #0056b3;
+}
+
+
+.btn-quick-callcta {
+  position: fixed;
+  bottom: 130px;
+  right: 13px;
+  padding: 14px 32px;
+  background: #ccc;
+  display: block;
+  font-size: 16px;
+  z-index: 99;
+  color: #000;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.btn-quick-callcta .img {
+  display: inline-block;
+  background: #fff;
+  border-radius: 100px;
+  padding: 2px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  left: -10px;
+  top: 3px;
+}
+
+.btn-quick-callcta .img img {
+  width: 100%;
+}
+
+.btn-quick-callcta .call-txt {
+  position: absolute;
+  display: inline-block;
+  top: -14px;
+  background: #4949be;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 10px;
+  border-radius: 6px;
+  left: 42px;
+  text-align: center;
+  width: 90px;
+  border-bottom: 2px solid;
+}
+.scroll-buttons a{
+  text-decoration: none;
+}
+
+
+
+
+

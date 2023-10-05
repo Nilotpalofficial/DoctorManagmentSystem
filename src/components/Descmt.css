@@ -1,0 +1,61 @@
+.cstm-fluid {
+  height: 600px;
+  background-color:white;
+ 
+  }
+
+  .image-boxes {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .image-box {
+    width: 350px;
+    height: 390px;
+    background-color:white;
+    margin-bottom: 20px;
+    overflow: hidden; /* Add this line to hide overflow */
+    border: 0px;
+    box-shadow: 6px 6px 70px #1028511c;
+    border-radius: 12px;
+    border: 0px;
+    
+  }
+.upheading h2{
+  margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #161616;
+    font-weight: 800;
+}
+.image-box img {
+  margin-top: 20px;
+  width: 85%;
+  max-width: 100%; /* Limit the image width to fit within the container */
+  max-height: 100%; /* Limit the image height to fit within the container */
+}
+.disclamier_img_radius{
+  border-radius: 12px !important;
+    margin: 0px 23px ;
+}
+.image-box h6{
+  
+  margin: 0px 26px;
+}
+.imguptext{
+  margin-top: 25px;
+}
+.imgdowntext p{
+  margin: 0px 22px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+a.text-warning {
+  margin: 0px 23px;
+  margin-top: 10px;
+  font-size: 14px !important;
+  color: #ED803A !important;
+}

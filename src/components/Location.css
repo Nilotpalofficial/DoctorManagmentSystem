@@ -1,0 +1,76 @@
+.ah_location_sec { 
+    display: flex;
+    background-color:white;
+}
+.leftpart1{
+    transform: translate(70px);
+}
+.card12 img{
+    width: 80%;
+    border: #FCFCFC solid 9px;
+}
+.text-details1{
+    margin: 0px 80px;
+}
+.sec_title{
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-details1 h2{
+    color: #161616;
+    font-weight: 800;
+}
+.text-details1 p{
+    font-size: 14px;
+    line-height: 1.6;
+    padding-bottom: 16px;
+}
+
+.ah_location_sec .pg_widget 
+{
+    height: 106px;
+}
+.ah_location_sec .pg_widget img{ 
+    width: 76px;
+}
+
+.ah_location_sec p{
+     font-size: 14px; line-height: 1.6; padding-bottom: 16px; 
+    }
+
+.ah_location_sec .pg_widget{
+    text-decoration: none;
+}
+.ah_location_sec .active{
+        border: 1px solid #ffb500;
+    }
+
+.location-info ul li a 
+{font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+.location-info ul li a i { 
+    color: #007c9d; font-size: 22px;
+ }
+.location-info ul li { 
+    padding-right: 19px;
+}
+
+.whatnew_sec{
+    padding: 60px 0px;
+    background: #FCFCFC;
+}
+.col{
+    background-color:wheat;
+    margin-right: 20px;
+    width: 20%;
+    border-radius: 10px;
+}
+.location-info{
+    margin-top: 210px;
+}
+.hospital-loc-holder{
+    display: block;
+}
